@@ -1,0 +1,12 @@
+{
+  "name": "fish-game-project",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev:backend": "npm --prefix fishback run dev",
+    "dev:frontend": "npm --prefix fish run dev",
+    "build:backend": "npm --prefix fishback install",
+    "build:frontend": "npm --prefix fish run build"
+  }
+}
+
